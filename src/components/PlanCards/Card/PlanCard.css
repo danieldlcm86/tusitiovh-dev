@@ -123,3 +123,18 @@
     background-color: #4133B7;
     width: 100%;
 }
+
+.button svg {
+    margin-left: 8px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.button-hero:hover .socialSvg {
+    transform: translateX(4px);
+}
+
+
+.socialSvg-hero path {
+    fill: #fff;
+}

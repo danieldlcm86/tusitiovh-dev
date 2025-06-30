@@ -40,7 +40,7 @@ const ContactUs = () => {
                                     />
                                 </div>
                             </div>
-                            <textarea className='text-area' placeholder="Déjanos tu mensaje" rows="6" required></textarea>
+                            <textarea className='text-area' placeholder="Déjanos tu mensaje" rows="4" required></textarea>
                             <ButtonTransition className="btn-contactus">
                                 Enviar <i className="fa-solid fa-paper-plane"></i>
                             </ButtonTransition>

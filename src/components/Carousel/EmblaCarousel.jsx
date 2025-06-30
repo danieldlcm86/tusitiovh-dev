@@ -81,8 +81,7 @@ const EmblaCarousel = ({ slides, options }) => {
                                 style={{ backgroundImage: `url(${proyecto.imagen})` }}
                             >
                                 <div className="proyecto-overlay">
-                                    {/* <h3 className="proyecto-nombre">{proyecto.nombre}</h3>
-                                    <p className="proyecto-desc">{proyecto.descripcion}</p> */}
+                                    
                                     <a
                                         className="proyecto-btn"
                                         href={proyecto.link}
@@ -101,17 +100,6 @@ const EmblaCarousel = ({ slides, options }) => {
             <div className="embla__controls">
                 <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} className="embla__arrow embla__arrow--prev" />
                 <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} className="embla__arrow embla__arrow--next" />
-                {/* <div className="embla__buttons">
-                </div> */}
-                {/* <div className="embla__dots">
-                    {scrollSnaps.map((_, index) => (
-                        <DotButton
-                            key={index}
-                            onClick={() => onDotButtonClick(index)}
-                            className={`embla__dot${index === selectedIndex ? ' embla__dot--selected' : ''}`}
-                        />
-                    ))}
-                </div> */}
             </div>
         </div>
     )

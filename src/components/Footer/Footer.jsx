@@ -4,7 +4,12 @@ import './Footer.css'
 const Footer = () => {
     return (
         <footer className="footer">
-            < SocialMedia />
+            < SocialMedia 
+                whatsapp="https://wa.me/5219932111311?text=Hola%20TuSitioVH%2C%20quiero%20más%20información%20sobre%20los%20paquetes"
+                facebook="https://www.facebook.com/profile.php?id=61577745212962"
+                instagram="https://www.instagram.com/"
+                linkedin="https://www.linkedin.com/feed/"
+            />
             <p>© {new Date().getFullYear()} TuSitioVH. Todos los derechos reservados.</p>
         </footer>
     )

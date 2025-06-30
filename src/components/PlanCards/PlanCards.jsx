@@ -13,7 +13,8 @@ const PlanCards = () => {
                 "Formulario de contacto",
                 "Integración con WhatsApp"
             ],
-            buttonInfo: "Cotiza ahora"
+            buttonInfo: "Cotiza ahora",
+            referencia: "https://wa.me/5219932111311?text=Hola%20TuSitioVH%2C%20quiero%20más%20información%20sobre%20el%20paquete%20%22Landing%20Básica%22"
         },
         {
             price: "",
@@ -25,7 +26,8 @@ const PlanCards = () => {
                 "Optimizado para SEO",
                 "Google Maps y redes sociales"
             ],
-            buttonInfo: "Cotiza ahora"
+            buttonInfo: "Cotiza ahora",
+            referencia: "https://wa.me/5219932111311?text=Hola%20TuSitioVH%2C%20quiero%20más%20información%20sobre%20el%20paquete%20%22Sitio%20Informativo%22"
         },
         {
             price: "",
@@ -37,7 +39,8 @@ const PlanCards = () => {
                 "Hosting (opcional)",
                 "Capacitación al cliente"
             ],
-            buttonInfo: "Cotiza ahora"
+            buttonInfo: "Cotiza ahora",
+            referencia: "https://wa.me/5219932111311?text=Hola%20TuSitioVH%2C%20quiero%20más%20información%20sobre%20el%20paquete%20%22Presencia%20Total%22"
         }
     ]
 

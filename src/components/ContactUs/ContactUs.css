@@ -65,6 +65,9 @@
     background-color: transparent;
     border-radius: 8px;
     color: var(--negro-profundo);
+    font-family: Urbanist;
+    font-size: 16px;
+    color: var(--morado-claro);
 }
 
 .btn-contactus {
@@ -115,6 +118,7 @@
 
     .contact-text-form p {
         text-align: center;
+        font-size: 18px;
     }
 
     .contact-form {

@@ -9,6 +9,7 @@ import Projects from './components/Projects/Projects'
 import Reviews from './components/Reviews/Reviews'
 import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton'
 import Servicios from './components/Services/Services'
+import TechRibbon from './components/TechRibbon/TechRibbon'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       < PlanCards />
       < ContactUs />
       < AboutUs />
+      < TechRibbon />
       < Reviews />
       < Footer />
       < ScrollToTopButton />

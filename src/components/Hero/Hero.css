@@ -47,7 +47,7 @@
     color: var(--gris-lavanda);
 }
 
-.btn-hero svg {
+.btn-hero i {
     margin-left: 8px;
     font-size: 16px;
     transition: transform 0.3s ease;
@@ -57,13 +57,6 @@
     transform: translateX(4px);
 }
 
-.socialSvg-hero path {
-    fill: var(--morado);
-}
-
-.btn-hero:hover .socialSvg path {
-    fill: black;
-}
 
 /* Tablets (hasta 1024px) */
 @media (max-width: 1024px) {
@@ -111,15 +104,15 @@
     .paragraph {
         font-size: 36px;
         line-height: 1.1;
-        max-width: 250px;
+        max-width: 280px;
     }
 
     .subtitle {
-        font-size: 36px;
+        font-size: 42px;
     }
 
     .subdescription {
-        font-size: 16px;
+        font-size: 18px;
         max-width: 210px;
     }
 
