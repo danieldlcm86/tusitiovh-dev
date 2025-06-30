@@ -1,0 +1,204 @@
+.servicios {
+    padding: 60px 30px;
+    text-align: center;
+    height: 100vh;
+}
+
+.servicios-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--negro-profundo);
+    margin-bottom: 40px;
+    padding: 0px 250px;
+    line-height: 1.2;
+}
+
+.servicios-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px 10px;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.servicio {
+    border-radius: 8px;
+    padding: 32px 20px;
+    max-width: 320px;
+    transition: all 0.3s ease;
+}
+
+.servicio-icono {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 2px;
+    transition: transform 0.3s ease;
+}
+
+.servicio:hover .servicio-icono {
+    transform: scale(1.2);
+}
+
+.servicio-titulo {
+    font-family: 'Urbanist';
+    font-size: 17px;
+    margin-bottom: 8px;
+    font-weight: bolder;
+    transition: color 0.3s ease;
+}
+
+.servicio-descripcion {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 16px;
+    color: var(--negro-profundo);
+    margin: 0px 0px 10px 0px;
+    font-weight: bold;
+}
+
+/* Landing */
+.titulo-0 {
+    color: #4C6FFF;
+}
+
+/* Informativos */
+.titulo-1 {
+    color: #D94EFF;
+}
+
+/* Hosting */
+.titulo-2 {
+    color: #2F9A98;
+}
+
+/* Móvil */
+.titulo-3 {
+    color: #F58675;
+}
+
+/* WhatsApp */
+.titulo-4 {
+    color: #25D366;
+}
+
+.btn-services {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    color: white;
+    border: 2px solid var(--morado);
+    border-radius: 34px;
+    background-color: var(--morado);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-services::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    transform: scale(0);
+    z-index: -1;
+    background-color: white;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.btn-services:hover::before {
+    transform: scale(5);
+}
+
+.btn-services:hover {
+    color: var(--morado);
+    background-color: transparent;
+}
+
+.btn-services:active {
+    transform: scale(0.98);
+}
+
+.btn-services i {
+    margin-left: 8px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.btn-services:hover i {
+    transform: translateX(4px);
+}
+
+/* Tablets (hasta 1024px) */
+@media (max-width: 1024px) {
+    .servicios {
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    .servicios-titulo {
+        padding: 0px 80px;
+        font-size: 32px;
+    }
+
+    .servicios-lista {
+        gap: 24px 12px;
+    }
+
+    .servicio {
+        padding: 24px 16px;
+    }
+
+    .servicio-descripcion {
+        font-size: 15px;
+    }
+}
+
+/* Móviles (hasta 768px) */
+@media (max-width: 768px) {
+    .servicios {
+        padding: 32px 16px;
+    }
+
+    .servicios-titulo {
+        font-size: 24px;
+        padding: 0px;
+    }
+
+    .servicios-lista {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servicio {
+        max-width: 60%;
+        width: 60%;
+        padding: 5px;
+    }
+
+    .servicio-icono {
+        width: 48px;
+        height: 48px;
+    }
+
+    .servicio-titulo {
+        font-size: 16px;
+    }
+
+    .servicio-descripcion {
+        font-size: 16px;
+    }
+
+    .btn-services {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .btn-services i {
+        font-size: 14px;
+    }
+}

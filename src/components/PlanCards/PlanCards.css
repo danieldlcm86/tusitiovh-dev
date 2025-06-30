@@ -1,0 +1,62 @@
+.plan-cards-section {
+    margin: 60px 0px;
+    padding: 10px 30px;
+    text-align: center;
+    height: 100%;
+}
+
+.plan-cards {
+    padding: 0px 30px;
+    text-align: center;
+    justify-content:space-around;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.plan-cards-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--negro-profundo);
+    margin-bottom: 40px;
+    padding: 0px 250px;
+    line-height: 1.2;
+}
+
+/* Tablets (hasta 1024px) */
+@media (max-width: 1024px) {
+    .plan-cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+        gap: 32px;
+    }
+
+    .plan-cards-title {
+        font-size: 32px;
+        padding: 0px 60px;
+    }
+
+    .plan-cards-section {
+        padding: 20px;
+    }
+}
+
+/* Móviles (hasta 768px) */
+@media (max-width: 768px) {
+    .plan-cards-title {
+        font-size: 24px;
+        padding: 0px;
+    }
+
+    .plan-cards {
+        padding: 0px 10px;
+        gap: 24px;
+    }
+
+    .plan-cards-section {
+        margin: 40px 0px;
+        padding: 16px;
+    }
+}

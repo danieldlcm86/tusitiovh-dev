@@ -1,0 +1,18 @@
+.tusitiovh-button {
+    background-color: var(--morado);
+    color: #ffffff;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    -webkit-box-shadow: 10px 8px 10px -1px rgba(151, 62, 195, 0.27);
+    box-shadow: 10px 8px 10px -1px rgba(151, 62, 195, 0.27);
+}
+
+.tusitiovh-button:hover {
+    background-color: var(--morado-claro);
+}

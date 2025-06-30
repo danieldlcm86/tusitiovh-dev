@@ -1,0 +1,8 @@
+.footer {
+    color: var(--negro-profundo);
+    background-color: var(--rosa-lavanda);
+    text-align: start;
+    padding: 1.2rem;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 0.9rem;
+}

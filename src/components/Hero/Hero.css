@@ -1,0 +1,147 @@
+.hero-container {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 60px;
+    background-image: url(../../assets/banners/banner-hero.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-left {
+    padding: 18vh 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 720px;
+}
+
+.subtitle {
+    font-size: 90px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paragraph {
+    font-size: 90px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 0.9;
+    margin: 0;
+    color: var(--gris-lavanda);
+}
+
+.hero-button {
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.subdescription {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 0;
+    color: var(--gris-lavanda);
+}
+
+.btn-hero svg {
+    margin-left: 8px;
+    font-size: 16px;
+    transition: transform 0.3s ease;
+}
+
+.btn-hero:hover .socialSvg {
+    transform: translateX(4px);
+}
+
+.socialSvg-hero path {
+    fill: var(--morado);
+}
+
+.btn-hero:hover .socialSvg path {
+    fill: black;
+}
+
+/* Tablets (hasta 1024px) */
+@media (max-width: 1024px) {
+    .hero-container {
+        flex-direction: column;
+        align-items: start;
+        padding: 60px 32px;
+        height: auto;
+        background-position: center;
+    }
+
+    .hero-left {
+        padding: 40px 20px 0 20px;
+        align-items: start;
+        text-align: start;
+    }
+
+    .paragraph {
+        font-size: 56px;
+    }
+
+    .subtitle {
+        font-size: 60px;
+    }
+
+    .subdescription {
+        font-size: 18px;
+    }
+
+    .hero-button {
+        justify-content: center;
+    }
+}
+
+/* Móviles (hasta 768px) */
+@media (max-width: 768px) {
+    .hero-container {
+        padding: 40px 20px;
+    }
+
+    .hero-left {
+        padding: 60px 10px 0 10px;
+    }
+
+    .paragraph {
+        font-size: 36px;
+        line-height: 1.1;
+        max-width: 250px;
+    }
+
+    .subtitle {
+        font-size: 36px;
+    }
+
+    .subdescription {
+        font-size: 16px;
+        max-width: 210px;
+    }
+
+    .hero-button {
+        justify-content: center;
+        background-color: var(--morado);
+        border-radius: 24px;
+        margin-top: 16px;
+    }
+    
+    .btn-hero {
+        color: var(--gris-lavanda);
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .btn-hero svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .socialSvg-hero path {
+        fill: var(--gris-lavanda);
+    }
+}
