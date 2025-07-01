@@ -255,8 +255,8 @@
     }
 
     .embla__arrow {
-        display: none;
-        /* Opcional: esconder flechas en móvil */
+        width: 2rem;
+        height: 2rem;
     }
 
     .embla__dots {

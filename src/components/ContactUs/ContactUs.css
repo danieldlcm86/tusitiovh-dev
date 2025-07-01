@@ -18,7 +18,7 @@
 }
 
 .contact-text-form {
-    flex: 1.2;
+    flex: 1;
 }
 
 .contact-text-form h2 {
@@ -66,12 +66,42 @@
     border-radius: 8px;
     color: var(--negro-profundo);
     font-family: Urbanist;
-    font-size: 16px;
+    font-size: 100%;
     color: var(--negro-profundo);
 }
 
 .btn-contactus {
     width: 40%;
+}
+
+.whatsapp-cta {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #0D0D0D;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.whatsapp-cta i {
+    font-size: 1.2rem;
+    color: #25D366;
+    /* color oficial de WhatsApp */
+}
+
+.obligatorio {
+    font-size: 12px;
+    text-align: right;
+    display: block;
+    margin-bottom: 4px;
+    /* color: #5A4B74; */
+    color:darkred
+}
+
+.asterisco {
+    font-size: 15px;
+    /* color:blueviolet; */
+    color:darkred
 }
 
 /* Tablets (hasta 1024px) */
@@ -102,7 +132,7 @@
 /* Móviles (hasta 768px) */
 @media (max-width: 768px) {
     .contact-section {
-        padding: 1rem;
+        padding: 0.2rem 1rem 1rem 1rem;
     }
 
     .contact-container {
@@ -114,10 +144,11 @@
     .contact-text-form h2 {
         font-size: 1.6rem;
         text-align: center;
+        margin-top: 0px;
     }
 
     .contact-text-form p {
-        text-align: center;
+        text-align: start;
         font-size: 18px;
     }
 
@@ -131,16 +162,22 @@
     }
 
     .text-area {
-        font-size: 14px;
-    }
-
-    .btn-contactus {
-        width: 100%;
-        font-size: 1rem;
-        padding: 0.75rem;
+        font-size: 100%;
     }
 
     .contact-image {
-        display: none; 
+        display: none;
+    }
+
+    .whatsapp-cta {
+        flex-direction: row;
+        text-align: start;
+        font-size: 18px;
+    }
+
+    .whatsapp-cta i {
+        font-size: 1.2rem;
+        color: #25D366;
+        /* color oficial de WhatsApp */
     }
 }

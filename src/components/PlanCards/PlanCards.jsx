@@ -52,6 +52,9 @@ const PlanCards = () => {
                     <PlanCard key={index} {...plan} />
                 ))}
             </div>
+            <p className="plan-note">
+                * Todos nuestros servicios incluyen factura fiscal si la requieres.
+            </p>
         </section>
     )
 }

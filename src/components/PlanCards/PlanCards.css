@@ -8,7 +8,7 @@
 .plan-cards {
     padding: 0px 30px;
     text-align: center;
-    justify-content:space-around;
+    justify-content: space-around;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -56,7 +56,15 @@
     }
 
     .plan-cards-section {
-        margin: 40px 0px;
+        margin: 40px 0px 10px 0px;
         padding: 16px;
     }
+}
+
+.plan-note {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    color: #5A4B74;
+    font-weight:  bolder;
 }

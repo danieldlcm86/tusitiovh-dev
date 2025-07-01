@@ -29,7 +29,8 @@
     
 }
 
-.inputGroup :is(input:focus, input:valid)~label {
+.inputGroup input:focus ~ label,
+.inputGroup input:not(:placeholder-shown) ~ label {
     transform: translateY(-50%) scale(.9);
     margin: 0em;
     margin-left: 1.3em;

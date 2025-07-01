@@ -45,6 +45,7 @@
     font-size: 1.3rem;
     color: #425675;
     margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
 }
 
 .plan .title+* {
@@ -122,6 +123,10 @@
 .plan .button:focus {
     background-color: #4133B7;
     width: 100%;
+}
+
+.plan .button:hover::before {
+    transform: scale(0);
 }
 
 .button svg {

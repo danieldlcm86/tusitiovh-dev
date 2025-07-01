@@ -19,25 +19,18 @@ const slides = [
         imagen: SiConsultores,
         link: "https://proyecto2-demo.com"
     },
-    {
-        nombre: "Agromerca2",
-        descripcion: "Landing page moderna.",
-        imagen: Agromerca2,
-        link: "https://proyecto2-demo.com"
-    },
+    // {
+    //     nombre: "Agromerca2",
+    //     descripcion: "Landing page moderna.",
+    //     imagen: Agromerca2,
+    //     link: "https://proyecto2-demo.com"
+    // },
     {
         nombre: "Coffee Kode",
         descripcion: "Landing page moderna.",
         imagen: CoffeeKode,
         link: "https://proyecto2-demo.com"
     },
-    // {
-    //     nombre: "Coffee Kode",
-    //     descripcion: "Landing page moderna.",
-    //     imagen: MontDesign,
-    //     link: "https://proyecto2-demo.com"
-    // },
-    // ...
 ]
 
 
