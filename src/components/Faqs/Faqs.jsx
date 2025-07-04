@@ -1,5 +1,5 @@
 import { FaChevronDown } from 'react-icons/fa'
-import './FAQs.css'
+import './Faqs.css'
 
 const faqs = [
     {
