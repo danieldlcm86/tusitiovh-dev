@@ -1,7 +1,7 @@
 .tech-ribbon {
     overflow: hidden;
     background: #f5f5f5;
-    padding: 20px 0;
+    padding: 10px 0 20px;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@
     animation: scroll-left 25s linear infinite;
     width: max-content;
     margin: 20px 0px;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .tech-item {

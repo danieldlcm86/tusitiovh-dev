@@ -1,5 +1,5 @@
-import { FaReact, FaWordpress, FaHtml5, FaCss3Alt } from 'react-icons/fa'
-import { SiNextdotjs, SiMui, SiJavascript, SiMysql } from 'react-icons/si'
+import { FaReact, FaWordpress, FaHtml5, FaCss3Alt, FaJava } from 'react-icons/fa'
+import { SiNextdotjs, SiMui, SiJavascript, SiMysql, SiTypescript, SiSpring  } from 'react-icons/si'
 import './TechRibbon.css'
 
 const TechRibbon = () => {
@@ -12,6 +12,9 @@ const TechRibbon = () => {
         { icon: <FaCss3Alt />, name: 'CSS3' },
         { icon: <SiJavascript />, name: 'JavaScript' },
         { icon: <SiMysql />, name: 'MySQL' },
+        { icon: <FaJava />, name: 'Java' },
+        { icon: <SiTypescript />, name: 'Typescript' },
+        { icon: <SiSpring  />, name: 'SpringBoot' },
     ]
 
     // Para que se repitan y haga loop infinito visual

@@ -42,7 +42,7 @@ const ContactUs = () => {
                             Escríbenos.
                         </h2>
                         <p>Te responderemos lo antes posible,</p>
-                        <p className="whatsapp-cta">o mándanos WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                        <p className="whatsapp-cta">o mándanos WhatsApp <i className="fa-brands fa-whatsapp"></i>
                             <a href="https://wa.me/5219932111311?text=Hola%20TuSitioVH%2C%20quiero%20más%20información" target="_blank" rel="noopener noreferrer">
                                 <strong>+52 993 211 1311</strong>
                             </a>

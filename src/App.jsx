@@ -1,6 +1,7 @@
 import './App.css'
 import AboutUs from './components/AboutUs/AboutUs'
 import ContactUs from './components/ContactUs/ContacUs'
+import Faqs from './components/Faqs/Faqs'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
@@ -22,6 +23,7 @@ function App() {
       < PlanCards />
       < ContactUs />
       < AboutUs />
+      < Faqs />
       < TechRibbon />
       < Reviews />
       < Footer />
