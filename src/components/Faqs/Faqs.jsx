@@ -3,20 +3,34 @@ import './Faqs.css'
 
 const faqs = [
     {
-        question: '¿Cuánto tarda en entregarse un sitio?',
-        answer: 'El tiempo promedio de entrega es de 5 a 10 días hábiles, dependiendo de la complejidad del sitio.'
+        question: '¿Qué incluye el desarrollo de mi sitio web?',
+        answer:
+            'Incluye diseño personalizado, desarrollo adaptado a tu negocio, integración con WhatsApp, redes sociales, Google Maps, formulario de contacto y optimización para móviles.'
     },
     {
-        question: '¿Incluyen hosting y dominio?',
-        answer: 'Sí. Puedes contratarlos como servicio adicional o gestionarlos por tu cuenta. Nosotros te asesoramos en ambos casos.'
+        question: '¿Puedo tener solo una landing page sin secciones adicionales?',
+        answer:
+            'Sí. Puedes elegir una landing page sencilla con toda la información clave de tu negocio en una sola vista. Es ideal para promociones, productos únicos o servicios específicos.'
     },
     {
-        question: '¿Puedo editar mi sitio después?',
-        answer: 'Sí. Podemos entregarte una guía de administración o incluir un plan de mantenimiento mensual.'
+        question: '¿Necesito saber de programación para administrar mi sitio?',
+        answer:
+            'No. Si eliges una solución administrable como WordPress, te damos acceso con una guía básica. También ofrecemos planes de mantenimiento si prefieres que nosotros lo actualicemos por ti.'
     },
     {
-        question: '¿Qué tecnologías usan?',
-        answer: 'Trabajamos con React, WordPress, Next.js, Material UI, entre otras. Nos adaptamos a tu proyecto.'
+        question: '¿Pueden ayudarme con el dominio y hosting?',
+        answer:
+            'Claro. Podemos gestionarlo por ti o guiarte para que lo adquieras directamente. Trabajamos con proveedores como Hostinger y Vercel para ofrecer opciones confiables y económicas.'
+    },
+    {
+        question: '¿Qué formas de pago aceptan?',
+        answer:
+            'Aceptamos transferencias bancarias, PayPal o depósitos en OXXO. Puedes pagar en una sola exhibición o dividir el pago en dos partes: 50% al iniciar y 50% al entregar.'
+    },
+    {
+        question: '¿Cuánto tiempo tarda el desarrollo de mi sitio?',
+        answer:
+            'Un sitio básico se entrega en 5 a 10 días hábiles. Sitios multipágina o con funciones adicionales pueden tardar hasta 15 días. Siempre te mantenemos informado del avance.'
     },
 ]
 
