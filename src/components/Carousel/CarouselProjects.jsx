@@ -8,16 +8,16 @@ import CoffeeKode from '../../assets/banners/coffee-kode.png'
 const OPTIONS = { loop: true }
 const slides = [
     {
+        nombre: "S.I. Consultores",
+        descripcion: "Landing page moderna.",
+        imagen: SiConsultores,
+        link: "https://consultoria-si.vercel.app/"
+    },
+    {
         nombre: "MontDesign",
         descripcion: "Landing Page para Carpintería de Lujo",
         imagen: MontDesign,
         link: "https://mont-design.vercel.app/"
-    },
-    {
-        nombre: "S.I. Consultores",
-        descripcion: "Landing page moderna.",
-        imagen: SiConsultores,
-        link: "https://proyecto2-demo.com"
     },
     // {
     //     nombre: "Agromerca2",
